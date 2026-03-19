@@ -17,8 +17,9 @@ form.addEventListener("submit", function(e) {
 
     // Validamos credenciales
     if (userValue === "admin" && passValue === "1234") {
-        window.location.href = "admin.html"; // redirige a la pagina d eadministrador
+        window.location.href = "Productos.html"; // redirige a la pagina de productos
     } else {
         alert("Usuario o contraseña incorrectos");
     }
 });
+
