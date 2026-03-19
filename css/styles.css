@@ -1,6 +1,6 @@
 
 
-    body { /* estilo solo para los cuerpos de pagina principales */
+    body.inicio { /* estilo solo para la pagina principal de inicio de sesion */
       display: flex;
       justify-content: center;
       align-items: center;
@@ -8,15 +8,16 @@
       background-color: #d0dce8;
       font-family: Arial, sans-serif;
     }
+
+    body.admin {
+    background-color: #aecae7;
+    display: flex;
+    flex-direction: column; /* 👈 clave */
+    justify-content: center;
+    align-items: center;
+    height: 30vh;
+}
     
-    body.admin{
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-
-
-
     .login-box {
       background-color: white;
       padding: 20px 30px;
